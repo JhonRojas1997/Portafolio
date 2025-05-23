@@ -28,6 +28,7 @@ nav {
 h1{
     text-align: center;
     margin-top: 80px;
+     color: #00ffd5;
 }
 .contenedor{
     display: flex;
