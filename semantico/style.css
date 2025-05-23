@@ -197,6 +197,9 @@ button:hover {
 .contacto input{
     width: 400px;
 }
+.contacto h2{
+   color: #00ffd5
+}
 
 .sobremis {
   display: flex;
