@@ -119,3 +119,15 @@ h2{
 .genre h4{
     padding-top: 10px;
 }
+
+.return{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+    padding: 20PX;
+    text-decoration: none;
+}
+.return a{
+    text-decoration: none;
+}
