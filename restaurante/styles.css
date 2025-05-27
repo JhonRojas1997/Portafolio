@@ -26,5 +26,5 @@ body{
     width: 200px;
 }
 .inicio__descripcion{
-    padding: auto;
+    padding-inline: 20px;
 }
