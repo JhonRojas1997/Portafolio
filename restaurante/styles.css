@@ -1,0 +1,27 @@
+:root{
+    --principal_color: #ff6600;
+    --secudary_color: white;
+    --third_color: black;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: black
+    
+}
+.inicio{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--principal_color);
+    align-items: center;
+    padding-bottom: 40px;
+    color: var(--third_color);
+}
+.inicio__logo{
+    width: 200px;
+}
