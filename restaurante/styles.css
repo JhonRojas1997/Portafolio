@@ -11,15 +11,17 @@
 body{
     font-family: 'Courier New', Courier, monospace;
     background: var(--secudary_color);
+
 }
 .inicio{
     font-weight: bold;
     display: flex;
     flex-direction: column;
-    background-color: var(--principal_color);
+    background: linear-gradient( to bottom, #ff6600, #fd9c5a, #ffc9a4, #ffffff)  ;
     align-items: center;
     padding-bottom: 40px;
     color: var(--third_color);
+    height: 300px;
 }
 .inicio__logo{
     width: 200px;
@@ -35,4 +37,8 @@ body{
     align-items: center;
     text-align: center;
     text-decoration: none;
+}
+.info{
+    text-align: center;
+    padding: 20px;
 }
