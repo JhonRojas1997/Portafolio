@@ -35,4 +35,5 @@ body{
     color: var(--secudary_color);
     align-items: center;
     text-align: center;
+    text-decoration: none;
 }
