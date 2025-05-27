@@ -30,15 +30,27 @@ body{
     padding-inline: 20px;
 }
 .navegacion{
+    display: flex;
     position: fixed;
     width: 100%;
+    height: 30px;
     bottom: 0;
-    color: var(--secudary_color);
     align-items: center;
-    text-align: center;
+    justify-content: center;
+    background: linear-gradient( to top, #ff6600, #fd8f46, #ffab72)  ;
+}
+.navegacion__etiquetas a {
     text-decoration: none;
+    color: var(--secudary_color);
+    font-size: 20px;
 }
 .info{
     text-align: center;
     padding: 20px;
+}
+.info__mision{
+    padding-top: 50px;
+}
+.info__vision{
+    padding-top: 50px;
 }
