@@ -28,3 +28,11 @@ body{
 .inicio__descripcion{
     padding-inline: 20px;
 }
+.navegacion{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: var(--secudary_color);
+    align-items: center;
+    text-align: center;
+}
