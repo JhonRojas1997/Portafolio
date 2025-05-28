@@ -25,7 +25,7 @@ body {
 
 .carrusel__contenido {
     display: flex;
-    width: 300%;
+    width: 400%;
     animation: slide 15s infinite;
 }
 
