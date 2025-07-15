@@ -348,28 +348,4 @@ button:hover {
 </html>
 </body>
 </html>
-async function courses() {
-    const courses = await getCourses();
-    const coursesContainer = document.getElementById("courses-container");
-    const userData = JSON.parse(sessionStorage.getItem("user"));
-    const email = userData.email;
 
-    coursesContainer.innerHTML = "";
-
-    courses.forEach(course => {
-        const registerAssistants = course.assistants || [];
-
-        // Verifica si el usuario está registrado en el curso
-        if (registerAssistants.includes(email)) {
-            coursesContainer.innerHTML += `
-                <tr>
-                    <th scope="row"><img src="${course.image}" class="object-fit-cover table__img" alt="courseImg"></th>
-                    <td><h5 class="card-title">${course.title}</h5></td>
-                    <td><p class="card-text">${course.description}</p></td>
-                    <td><p class="card-text"><small class="text-body-secondary">${course.assistants.length} / ${course.afforum}</small></p></td>
-                    <td><p class="card-text"><small class="text-body-secondary">${course.date}</small></p></td>
-                </tr>
-            `;
-        }
-    });
-}
